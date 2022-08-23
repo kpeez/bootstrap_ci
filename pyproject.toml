@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "bootstrap_ci"
+version = "0.1.0"
+description = "Bootstrap resampling for event-related transients."
+authors = ["kpuhger <krpuhger@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+numpy = "^1.23.2"
+matplotlib = "^3.5.3"
+pandas = "^1.4.3"
+
+[tool.poetry.dev-dependencies]
+flake8 = "^5.0.4"
+black = "^22.6.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+line-length = 99
+
+[tool.isort]
+profile="black"
