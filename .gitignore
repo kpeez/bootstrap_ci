@@ -10,6 +10,7 @@ build
 *.whl
 *.pytest_cache
 __pycache__
+poetry.lock
 
 
 # OS generated files #
