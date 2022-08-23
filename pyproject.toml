@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "bootstrap_ci"
 version = "0.1.0"
-description = "Bootstrap resampling for event-related transients."
+description = "Compute bootstrapped confidence intervals for event-related transients."
 authors = ["kpuhger <krpuhger@gmail.com>"]
 license = "MIT"
 
